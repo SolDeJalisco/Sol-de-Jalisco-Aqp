@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+    
+}
+header{
+    background-color: rgb(83, 223, 233);
+    height: 50px;
+
+    
+}
+header h1{
+    font-family:'Lusitana', serif;
+    color: rgb(246, 246, 246);
+    text-align: right;
+    padding-top: 25px;
+    padding-right: 7px;
+    font-size: 17px;
+    
+}
+#contenido{   
+    background-color: chocolate;
+    padding-bottom: 40px;
+    
+    
+}
+
+    h2 {
+    
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    font-size: 45px;
+    padding-top: 20px;
+    color: rgb(246, 246, 246);
+    }
+    #p1{
+        text-align: center;
+        font-family: 'Marck Script', cursive;
+        font-size: 25px;
+        padding-top: 0px;
+        color: rgb(246, 246, 246); 
+        padding-bottom: 20px;
+
+    }  
+    
+       
+    img{
+     
+    display: block; margin: auto;
+    border-radius: 10px;
+    }
+    #p2{
+    font-size: 20px;
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: rgb(255, 255, 255);
+
+
+    }  
+
+   aside{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: aquamarine;
+    text-align: center;
+    color: red;
+    font-size: 22px;
+   }
+   #precio1{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+    padding-bottom: 20px;
+
+   }
+   #precio2{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+    padding-bottom: 20px;
+
+   }
+   
+   .contactos img{
+    display: block; margin: auto;
+    width: 80%;
+    height: 80%;
+    padding-bottom: 30px;
+    
+
+   }
+   
+   .facebook{
+
+        
+        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+   
+}
+   .facebook a{
+    font-family: 'Lusitana', serif;
+    font-family: 'Marck Script', cursive;
+    font-family: 'Roboto', sans-serif;
+
+    text-align: center;
+    font-size: 60px;
+    color: aliceblue;
+    background-color: #134eceeb;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-decoration: none;
+    line-height: 80px;
+    box-shadow: 2px 2px 5px rgb(0,0, .5); 
+    
+   }
+    .contenedor2{
+
+    background-color: coral;
+    padding-bottom: 40px;
+    }
+    .contenedor2 h2{
+
+        font-size: 30px;
+        padding-bottom: 20px;
+        padding-top: 30px;
+    }
+    .contenedor2 img{
+        display: block; margin: auto;
+        width: 80%;
+        height: 80%; 
+                
+    }
+    
+    
+        
+    
+    .container_footer{
+
+        background-color:darkorchid;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        
+        
+    } 
+    .container_footer p{
+
+        text-align: center;
+        color: aliceblue;
+    }
+    #arequipa{
+        padding-top: 10px;
+    }
+    
+    
+
+
+    
+
+
+
+    
+
+
+   
+    
+
+    
+    
+
+
+
+ @media only screen and (min-width: 769px) {
+
+   
+header {
+        background-color: rgb(83, 223, 233);
+        height: 100px;}
+h1{
+        font-family:'Lusitana', serif;
+        color: rgb(246, 246, 246);
+        text-align: right;
+        padding-top: 35px;
+        padding-right: 20px;
+        font-size: 50px;
+    
+ 
+        
+            
+        
+    }
+#contenedor{
+    background-color: chocolate;
+
+} 
+    
+h2 {
+        
+        text-align: center;
+        font-family: 'Marck Script', cursive;
+        font-size: 100px;
+        
+        
+    }    
+}
