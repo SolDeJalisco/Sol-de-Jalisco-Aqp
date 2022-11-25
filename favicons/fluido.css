@@ -1,0 +1,348 @@
+@charset "utf-8";
+/* Medios fluidos sencillos
+   Nota: Los medios fluidos exigen la eliminación de los atributos de altura y anchura de los medios del código HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 no admite max-width (anchura máxima), por lo que usa de manera predeterminada una anchura del 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*
+	Propiedades de cuadrícula fluida de Dreamweaver
+	----------------------------------
+	dw-num-cols-mobile:		10;
+	dw-num-cols-tablet:		10;
+	dw-num-cols-desktop:	10;
+	dw-gutter-percentage:	10;
+	
+	Inspiración obtenida de "Responsive Web Design" de Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	y Golden Grid System de Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+/* Diseño móvil: 480 px e inferior. */
+
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 99.0909%;
+	padding-left: 0.4545%;
+	padding-right: 0.4545%;
+}
+#TITULO {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background-color: #0FC;
+	font-size: 8px;
+}
+#NOMBRE {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#PORTADA {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background-color: #F7DE07;
+}
+#COMENTARIO {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background-color: #9F0;
+	font-size: 13px;
+}
+#PRECIO {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	font-size: 24px;
+}
+#LLAMADAS {
+	clear: both;
+	float: left;
+	margin-left: 10.0917%;
+	width: 79.8165%;
+	display: block;
+}
+#ESPACIO {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#FOTOS1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	text-align: center;
+	font-size: 11px;
+	background-color: #F90;
+}
+#FOTOS2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	text-align: center;
+	font-size: 11px;
+	background-color: #F90;
+}
+#PRECIO2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	font-size: 24px;
+}
+#LLAMADAS2 {
+	clear: both;
+	float: left;
+	margin-left: 10.0917%;
+	width: 79.8165%;
+	display: block;
+}
+#AREQUIPA {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+/* Diseño tableta: de 481 px a 768 px. Hereda estilos de: Diseño móvil. */
+
+@media only screen and (min-width : 393px ){
+.gridContainer {
+	width: 99.0909%;
+	padding-left: 0.4545%;
+	padding-right: 0.4545%;
+}
+#TITULO {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	font-size: 16px;
+	background-color: #0FC;
+}
+#NOMBRE {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#PORTADA {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 59.633%;
+	display: block;
+	background-color: #F7DE07;
+}
+#COMENTARIO {
+	clear: none;
+	float: left;
+	margin-left: 0.9174%;
+	width: 39.4495%;
+	display: block;
+	background-color: #0F0;
+	font-size: 18px;
+}
+#PRECIO {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	font-size: 36px;
+}
+#LLAMADAS {
+	clear: none;
+	float: left;
+	margin-left: 31.1926%;
+	width: 49.5412%;
+	display: block;
+}
+#ESPACIO {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#FOTOS1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	text-align: center;
+	font-size: 18px;
+}
+#FOTOS2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	text-align: center;
+	font-size: 18px;
+	background-color: #F90;
+}
+#PRECIO2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	font-size: 36px;
+}
+#LLAMADAS2 {
+	clear: none;
+	float: left;
+	margin-left: 31.1926%;
+	width: 49.5412%;
+	display: block;
+}
+#AREQUIPA {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+}
+
+/* Diseño escritorio: de 769 px hasta un máximo de 1232 px.  Hereda estilos de: Diseño móvil y Diseño tableta. */
+
+@media only screen and (min-width: 769px) {
+.gridContainer {
+	width: 99.0909%;
+	max-width: 1232px;
+	padding-left: 0.4545%;
+	padding-right: 0.4545%;
+	margin: auto;
+}
+#TITULO {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	font-size: 20px;
+	background-color: #0FC;
+}
+#NOMBRE {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background-color: #0C6;
+}
+#PORTADA {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 59.633%;
+	display: block;
+	background-color: #F7DE07;
+}
+#COMENTARIO {
+	clear: none;
+	float: left;
+	margin-left: 0.9174%;
+	width: 39.4495%;
+	display: block;
+	background-color: #0F0;
+	font-size: 24px;
+}
+#PRECIO {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	font-size: 60px;
+}
+#LLAMADAS {
+    clear: left;
+    margin-left: 40.3669%;
+    width: 39.4495%;
+    display: block;
+}
+#ESPACIO {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#FOTOS1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 49.5412%;
+	display: block;
+	text-align: center;
+	font-size: 36px;
+}
+#FOTOS2 {
+	clear: none;
+	float: left;
+	margin-left: 0.9174%;
+	width: 49.5412%;
+	display: block;
+	text-align: center;
+	font-size: 36px;
+	background-color: #F90;
+}
+#PRECIO2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	font-size: 60px;
+}
+#LLAMADAS2 {
+	clear: both;
+	float: left;
+	margin-left: 40.3669%;
+	width: 39.4495%;
+	display: block;
+}
+#AREQUIPA {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+}
