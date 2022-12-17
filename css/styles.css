@@ -165,7 +165,7 @@ header h1{
 
 
 
-    
+    /* Diseño escritorio: de 769 px hasta un máximo de 1232 px.  Hereda estilos de: Diseño móvil y Diseño tableta. */
 
 
    
@@ -179,33 +179,169 @@ header h1{
  @media only screen and (min-width: 769px) {
 
    
-header {
+    header {
         background-color: rgb(83, 223, 233);
-        height: 100px;}
-h1{
+        height: 80px;
+    }
+    header h1{
         font-family:'Lusitana', serif;
         color: rgb(246, 246, 246);
         text-align: right;
-        padding-top: 35px;
+        padding-top: 40px;
         padding-right: 20px;
-        font-size: 50px;
-    
+        font-size: 35px;
+    }
  
         
-            
-        
-    }
-#contenedor{
+          
+    #contenido{
     background-color: chocolate;
+    padding-bottom: 40px;
+    width: 75%;
+    float: left;
+    height: 600px;
 
-} 
+    } 
     
-h2 {
+    h2 {
         
         text-align: center;
         font-family: 'Marck Script', cursive;
-        font-size: 100px;
+        font-size: 130px;
         
         
-    }    
-}
+    }
+    #p1{
+        text-align: center;
+        font-family: 'Marck Script', cursive;
+        font-size: 50px;
+        padding-top: 0px;
+        color: rgb(246, 246, 246); 
+        padding-bottom: 30px;
+
+    }  
+    img{
+     
+        display: block; margin: auto;
+        border-radius: 10px;
+        
+                
+        } 
+    #p2{
+            font-size: 50px;
+            padding-top: 30px;
+            text-align: center;
+            padding-bottom: 20px;
+            color: rgb(255, 255, 255);
+        
+        
+         }     
+    aside{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: aquamarine;
+        text-align: center;
+        color: red;
+        font-size: 22px;
+        width: 25%;
+        float: right;
+        height: 610px;
+       }
+    
+    aside p{
+
+        padding-top: 100px;
+    }
+    
+       #precio1{
+        text-align: center;
+        padding-top: 700px;
+        font-size: 80px;
+        padding-bottom: 80px;
+    
+       }
+    .contactos{
+
+        display: flex;
+        justify-content: center;
+    }
+
+       .contactos img{
+        display: block; margin: auto;
+        width: 300px;
+        height: 100px;
+        padding-bottom: 30px;
+        margin: 0px 50px;
+        
+        
+    
+       }
+       .facebook{
+
+        
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+        padding-top: 20px;
+       
+    }
+       .facebook a{
+        font-family: 'Lusitana', serif;
+        font-family: 'Marck Script', cursive;
+        font-family: 'Roboto', sans-serif;
+    
+        text-align: center;
+        font-size: 90px;
+        color: aliceblue;
+        background-color: #134eceeb;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        text-decoration: none;
+        line-height: 110px;
+        box-shadow: 2px 2px 5px rgb(0,0, .5); 
+        
+       }
+        .contenedor2{
+    
+        background-color: coral;
+        padding-bottom: 40px;
+        }
+        .contenedor2 h2{
+    
+            font-size: 70px;
+            padding-bottom: 20px;
+            padding-top: 30px;
+        }
+        .contenedor2 img{
+            display: block; margin: auto;
+            width: 30%;
+            height: 30%; 
+                    
+        }
+        
+        
+            
+        
+        .container_footer{
+    
+            background-color:darkorchid;
+            padding-bottom: 20px;
+            padding-top: 20px;
+            
+            
+        } 
+        .container_footer p{
+    
+            text-align: center;
+            color: aliceblue;
+        }
+        #arequipa{
+            padding-top: 10px;
+        }
+
+
+
+ }
