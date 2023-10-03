@@ -22,12 +22,13 @@ header h1{
 #contenido{   
     background-color: chocolate;
     padding-bottom: 40px;
+}
 .contenedor img{
     display: block; margin: auto;
     width: 80%;
     height: 80%; 
  /*agrege*/           
-}
+
     
     
 }
