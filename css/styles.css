@@ -209,6 +209,12 @@ header h1{
     height: 600px;
 
     } 
+
+     .contenedor img{
+        display: block; margin: auto;
+        width: 35%;
+        height: 35%; 
+    }
     
     h2 {
         
