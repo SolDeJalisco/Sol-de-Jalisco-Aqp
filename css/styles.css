@@ -90,14 +90,86 @@ header h1{
 
    }
    
-   .contactos img{
-    display: block; margin: auto;
-    width: 80%;
-    height: 80%;
-    padding-bottom: 30px;
-    
+  .contactos{
+        
+        flex-direction:column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+        padding-top: 25px;
+        justify-content: space-around;
+        
+    }
+    .llamar{
 
-   }
+        
+        
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        padding-bottom: 25px;
+        padding-top: 25px;
+        
+        
+       
+    }
+       .llamar a {
+        
+    
+        
+        
+        text-align: center;
+        font-size: 30px;
+        color: aliceblue;
+        background-color: rgba(75, 206, 19, 0.922);
+        width: 200px;
+        height: 50px;
+        border-radius: 10%;
+        text-decoration: none;
+        line-height: 50px;
+        
+        box-shadow: 2px 2px 5px rgb(0,0, .5); 
+        
+       }
+        
+       .whatsapp{
+
+        
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        
+        
+        
+        
+       
+       
+
+    }
+       .whatsapp a {
+        
+    
+        
+        font:bolder;
+        text-align: center;
+        font-size: 30px;
+        color: aliceblue;
+        background-color: rgba(89, 7, 203, 0.922);
+        width: 200px;
+        height: 50px;
+        border-radius: 10%;
+        text-decoration: none;
+        line-height: 50px;
+        
+        box-shadow: 2px 2px 5px rgb(0,0, .5); 
+        
+       }
+
+
    
    .facebook{
 
@@ -274,20 +346,82 @@ header h1{
     
        }
     .contactos{
-
+        
+        flex-direction:column;
         display: flex;
         justify-content: center;
-    }
-
-       .contactos img{
-        display: block; margin: auto;
-        width: 300px;
-        height: 100px;
+        align-items: center;
         padding-bottom: 30px;
-        margin: 0px 50px;
+        padding-top: 25px;
+        justify-content: space-around;
         
+    }
+    .llamar{
+
+        
+        
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        padding-bottom: 25px;
+        padding-top: 25px;
+        
+        
+       
+    }
+       .llamar a {
         
     
+        
+        
+        text-align: center;
+        font-size: 30px;
+        color: aliceblue;
+        background-color: rgba(75, 206, 19, 0.922);
+        width: 200px;
+        height: 50px;
+        border-radius: 10%;
+        text-decoration: none;
+        line-height: 50px;
+        
+        box-shadow: 2px 2px 5px rgb(0,0, .5); 
+        
+       }
+        
+       .whatsapp{
+
+        
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        
+        
+        
+        
+       
+       
+
+    }
+       .whatsapp a {
+        
+    
+        
+        font:bolder;
+        text-align: center;
+        font-size: 30px;
+        color: aliceblue;
+        background-color: rgba(89, 7, 203, 0.922);
+        width: 200px;
+        height: 50px;
+        border-radius: 10%;
+        text-decoration: none;
+        line-height: 50px;
+        
+        box-shadow: 2px 2px 5px rgb(0,0, .5); 
+        
        }
        .facebook{
 
