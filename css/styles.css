@@ -1,495 +1,399 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: content-box;
-    
 }
-header{
-    background-color: rgba(35, 19, 215, 0.926);
-    height: 50px;
 
-    
+header {
+    background-color: rgba(35, 19, 215, .926);
+    height: 50px;
 }
-header h1{
-    font-family:'Lusitana', serif;
-    color:aliceblue;
+
+header h1 {
+    font-family: Lusitana, serif;
+    color: #f0f8ff;
     text-align: right;
     padding-top: 25px;
     padding-right: 7px;
     font-size: 17px;
-    
 }
-#contenido{   
-    background-color: chocolate;
+
+#contenido {
+    background-color: #d2691e;
     padding-bottom: 40px;
 }
-.contenedor img{
-    display: block; margin: auto;
-    width: 80%;
-    height: 80%; 
-         
 
-    
-    
+.contenedor img {
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 80%;
 }
 
-    h2 {
-    
+h2 {
     text-align: center;
     font-family: 'Marck Script', cursive;
     font-size: 45px;
     padding-top: 20px;
-    color: rgb(246, 246, 246);
-    }
-    #p1{
-        text-align: center;
-        font-family: 'Marck Script', cursive;
-        font-size: 25px;
-        padding-top: 0px;
-        color: rgb(246, 246, 246); 
-        padding-bottom: 20px;
+    color: #f6f6f6;
+}
 
-    }  
-    
-       
-    img{
-     
-    display: block; margin: auto;
+#p1 {
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    font-size: 25px;
+    padding-top: 0;
+    color: #f6f6f6;
+    padding-bottom: 20px;
+}
+
+img {
+    display: block;
+    margin: auto;
     border-radius: 10px;
-    }
-    #p2{
+}
+
+#p2 {
     font-size: 20px;
     padding-top: 30px;
     text-align: center;
     padding-bottom: 20px;
-    color: rgb(255, 255, 255);
+    color: #fff;
+}
 
-
-    }  
-
-   aside{
+aside {
     padding-top: 15px;
     padding-bottom: 15px;
-    background-color: rgba(208, 243, 16, 0.926);
+    background-color: rgba(208, 243, 16, .926);
     text-align: center;
-    color:rgb(41, 86, 11);
+    color: #29560b;
     font-size: 22px;
-   }
-   #precio1{
+}
+
+#precio1 {
     text-align: center;
     padding-top: 20px;
     font-size: 50px;
     padding-bottom: 20px;
+}
 
-   }
-   #precio2{
+#precio2 {
     text-align: center;
     padding-top: 20px;
     font-size: 50px;
     padding-bottom: 20px;
+}
 
-   }
-   
-  .contactos{
-        
-        flex-direction:column;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 30px;
-        padding-top: 25px;
-        justify-content: space-around;
-        
-    }
-    .llamar{
+.contactos {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: 25px;
+    justify-content: space-around;
+}
 
-        
-        
-        display: flex;
-        justify-content:center;
-        align-items: center;
-        padding-bottom: 25px;
-        padding-top: 25px;
-        
-        
-       
-    }
-       .llamar a {
-        
-    
-        
-        
-        text-align: center;
-        font-size: 30px;
-        color: aliceblue;
-        background-color: rgba(75, 206, 19, 0.922);
-        width: 200px;
-        height: 50px;
-        border-radius: 10%;
-        text-decoration: none;
-        line-height: 50px;
-        
-        box-shadow: 2px 2px 5px rgb(0,0, .5); 
-        
-       }
-        
-       .whatsapp{
+.llamar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
 
-        
-        
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 30px;
-        padding-top: 30px;
-        
-        
-        
-        
-       
-       
+.llamar a {
+    text-align: center;
+    font-size: 30px;
+    color: #f0f8ff;
+    background-color: rgba(75, 206, 19, .922);
+    width: 200px;
+    height: 50px;
+    border-radius: 10%;
+    text-decoration: none;
+    line-height: 50px;
+    box-shadow: 2px 2px 5px rgb(0, 0, .5);
+}
 
-    }
-       .whatsapp a {
-        
-    
-        
-        font:bolder;
-        text-align: center;
-        font-size: 30px;
-        color: aliceblue;
-        background-color: rgba(89, 7, 203, 0.922);
-        width: 200px;
-        height: 50px;
-        border-radius: 10%;
-        text-decoration: none;
-        line-height: 50px;
-        
-        box-shadow: 2px 2px 5px rgb(0,0, .5); 
-        
-       }
+.whatsapp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
 
+.whatsapp a {
+    font: bolder;
+    text-align: center;
+    font-size: 30px;
+    color: #f0f8ff;
+    background-color: rgba(89, 7, 203, .922);
+    width: 200px;
+    height: 50px;
+    border-radius: 10%;
+    text-decoration: none;
+    line-height: 50px;
+    box-shadow: 2px 2px 5px rgb(0, 0, .5);
+}
 
-   
-   .facebook{
-
-        
-        
+.facebook {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-bottom: 20px;
     padding-top: 20px;
-   
 }
-   .facebook a{
-    font-family: 'Lusitana', serif;
-    font-family: 'Marck Script', cursive;
-    font-family: 'Roboto', sans-serif;
 
+.facebook a {
+    font-family: Lusitana, serif;
+    font-family: 'Marck Script', cursive;
+    font-family: Roboto, sans-serif;
     text-align: center;
     font-size: 60px;
-    color: aliceblue;
+    color: #f0f8ff;
     background-color: #134eceeb;
     width: 70px;
     height: 70px;
     border-radius: 50%;
     text-decoration: none;
     line-height: 80px;
-    box-shadow: 2px 2px 5px rgb(0,0, .5); 
-    
-   }
-    .contenedor2{
+    box-shadow: 2px 2px 5px rgb(0, 0, .5);
+}
 
+.contenedor2 {
     background-color: coral;
     padding-bottom: 40px;
-    }
-    .contenedor2 h2{
+}
 
-        font-size: 30px;
-        padding-bottom: 20px;
-        padding-top: 30px;
-    }
-    .contenedor2 img{
-        display: block; margin: auto;
-        width: 80%;
-        height: 80%; 
-                
-    }
-    
-    
-        
-    
-    .container_footer{
+.contenedor2 h2 {
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
 
-        background-color:darkorchid;
-        padding-bottom: 20px;
-        padding-top: 20px;
-        
-        
-    } 
-    .container_footer p{
+.contenedor2 img {
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 80%;
+}
 
-        text-align: center;
-        color: aliceblue;
-    }
-    #arequipa{
-        padding-top: 13px;
-    }
-    
-    
+.container_footer {
+    background-color: #9932cc;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
 
+.container_footer p {
+    text-align: center;
+    color: #f0f8ff;
+}
 
-    
+#arequipa {
+    padding-top: 13px;
+}
 
-
-
-    /* Diseño escritorio: de 769 px hasta un máximo de 1232 px.  Hereda estilos de: Diseño móvil y Diseño tableta. */
-
-
-   
-    
-
-    
-    
-
-
-
- @media only screen and (min-width: 769px) {
-
-   
+@media only screen and (min-width: 769px) {
     header {
-        background-color: rgb(83, 223, 233);
+        background-color: #53dfe9;
         height: 80px;
     }
-    header h1{
-        font-family:'Lusitana', serif;
-        color: rgb(246, 246, 246);
+
+    header h1 {
+        font-family: Lusitana, serif;
+        color: #f6f6f6;
         text-align: right;
         padding-top: 40px;
         padding-right: 20px;
         font-size: 35px;
     }
- 
-        
-          
-    #contenido{
-    background-color: chocolate;
-    padding-bottom: 40px;
-    width: 75%;
-    float: left;
-    height: 600px;
 
-    } 
-
-     .contenedor img{
-        display: block; margin: auto;
-        width: 35%;
-        height: 35%; 
+    #contenido {
+        background-color: #d2691e;
+        padding-bottom: 40px;
+        width: 75%;
+        float: left;
+        height: 600px;
     }
-    
+
+    .contenedor img {
+        display: block;
+        margin: auto;
+        width: 35%;
+        height: 35%;
+    }
+
     h2 {
-        
         text-align: center;
         font-family: 'Marck Script', cursive;
         font-size: 130px;
-        
-        
     }
-    #p1{
+
+    #p1 {
         text-align: center;
         font-family: 'Marck Script', cursive;
         font-size: 50px;
-        padding-top: 0px;
-        color: rgb(246, 246, 246); 
+        padding-top: 0;
+        color: #f6f6f6;
         padding-bottom: 30px;
+    }
 
-    }  
-    img{
-     
-        display: block; margin: auto;
+    img {
+        display: block;
+        margin: auto;
         border-radius: 10px;
-        
-                
-        } 
-    #p2{
-            font-size: 50px;
-            padding-top: 30px;
-            text-align: center;
-            padding-bottom: 20px;
-            color: rgb(255, 255, 255);
-        
-        
-         }     
-    aside{
+    }
+
+    #p2 {
+        font-size: 50px;
+        padding-top: 30px;
+        text-align: center;
+        padding-bottom: 20px;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    aside {
         padding-top: 15px;
         padding-bottom: 15px;
-        background-color: aquamarine;
+        background-color: #7fffd4;
         text-align: center;
         color: red;
         font-size: 22px;
         width: 25%;
         float: right;
         height: 610px;
-       }
-    
-    aside p{
+    }
 
+    aside p {
         padding-top: 100px;
     }
-    
-       #precio1{
+
+    #precio1 {
         text-align: center;
-        padding-top: 700px;
+        padding-top: 20px;
         font-size: 80px;
-        padding-bottom: 80px;
-    
-       }
-    .contactos{
-        
-        flex-direction:column;
+        padding-bottom: 20px;
+    }
+
+    #precio2 {
+        text-align: center;
+        padding-top: 20px;
+        font-size: 80px;
+        padding-bottom: 20px;
+    }
+
+    .contactos {
+        flex-direction: column;
         display: flex;
         justify-content: center;
         align-items: center;
         padding-bottom: 30px;
         padding-top: 25px;
         justify-content: space-around;
-        
     }
-    .llamar{
 
-        
-        
+    .llamar {
         display: flex;
-        justify-content:center;
+        justify-content: center;
         align-items: center;
         padding-bottom: 25px;
         padding-top: 25px;
-        
-        
-       
     }
-       .llamar a {
-        
-    
-        
-        
+
+    .llamar a {
         text-align: center;
-        font-size: 30px;
-        color: aliceblue;
-        background-color: rgba(75, 206, 19, 0.922);
-        width: 200px;
-        height: 50px;
+        font-size: 50px;
+        color: #f0f8ff;
+        background-color: #00bfff;
+        width: 400px;
+        height: 100px;
         border-radius: 10%;
         text-decoration: none;
-        line-height: 50px;
-        
-        box-shadow: 2px 2px 5px rgb(0,0, .5); 
-        
-       }
-        
-       .whatsapp{
+        line-height: 100px;
+        box-shadow: 2px 2px 5px rgb(0, 0, .5);
+    }
 
-        
-        
+    .whatsapp {
         display: flex;
         justify-content: center;
         align-items: center;
         padding-bottom: 30px;
         padding-top: 30px;
-        
-        
-        
-        
-       
-       
-
     }
-       .whatsapp a {
-        
-    
-        
-        font:bolder;
+
+    .whatsapp a {
+        font: bolder;
         text-align: center;
-        font-size: 30px;
-        color: aliceblue;
-        background-color: rgba(89, 7, 203, 0.922);
-        width: 200px;
-        height: 50px;
+        font-size: 50px;
+        color: #f0f8ff;
+        background-color: #4caf50;
+        width: 400px;
+        height: 100px;
         border-radius: 10%;
         text-decoration: none;
-        line-height: 50px;
-        
-        box-shadow: 2px 2px 5px rgb(0,0, .5); 
-        
-       }
-       .facebook{
+        line-height: 100px;
+        box-shadow: 2px 2px 5px rgb(0, 0, .5);
+    }
 
-        
-        
+    .facebook {
         display: flex;
         justify-content: center;
         align-items: center;
         padding-bottom: 20px;
         padding-top: 20px;
-       
     }
-       .facebook a{
-        font-family: 'Lusitana', serif;
+
+    .facebook a {
+        font-family: Lusitana, serif;
         font-family: 'Marck Script', cursive;
-        font-family: 'Roboto', sans-serif;
-    
+        font-family: Roboto, sans-serif;
         text-align: center;
-        font-size: 90px;
-        color: aliceblue;
+        font-size: 60px;
+        color: #f0f8ff;
         background-color: #134eceeb;
-        width: 100px;
-        height: 100px;
+        width: 90px;
+        height: 90px;
         border-radius: 50%;
         text-decoration: none;
-        line-height: 110px;
-        box-shadow: 2px 2px 5px rgb(0,0, .5); 
-        
-       }
-        .contenedor2{
-    
+        line-height: 80px;
+        box-shadow: 2px 2px 5px rgb(0, 0, .5);
+    }
+
+    .contenedor2 {
         background-color: coral;
         padding-bottom: 40px;
-        }
-        .contenedor2 h2{
-    
-            font-size: 70px;
-            padding-bottom: 20px;
-            padding-top: 30px;
-        }
-        .contenedor2 img{
-            display: block; margin: auto;
-            width: 30%;
-            height: 30%; 
-                    
-        }
-        
-        
-            
-        
-        .container_footer{
-    
-            background-color:darkorchid;
-            padding-bottom: 20px;
-            padding-top: 20px;
-            
-            
-        } 
-        .container_footer p{
-    
-            text-align: center;
-            color: aliceblue;
-            font-size: 12px;
-        }
-        #arequipa{
-            padding-top: 10px;
-        }
+        width: 100%;
+        float: left;
+    }
 
+    .contenedor2 h2 {
+        font-size: 50px;
+        padding-bottom: 20px;
+        padding-top: 30px;
+    }
 
+    .contenedor2 img {
+        display: block;
+        margin: auto;
+        width: 60%;
+        height: 60%;
+    }
 
- }
+    .container_footer {
+        background-color: #9932cc;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        clear: both;
+    }
+
+    .container_footer p {
+        text-align: center;
+        color: #f0f8ff;
+    }
+
+    #arequipa {
+        padding-top: 13px;
+    }
+}
