@@ -286,19 +286,14 @@ aside {
         padding-top: 100px;
     }
 
-    #precio1 {
+    #precio {
         text-align: center;
         padding-top: 20px;
         font-size: 80px;
         padding-bottom: 20px;
     }
 
-    #precio2 {
-        text-align: center;
-        padding-top: 20px;
-        font-size: 80px;
-        padding-bottom: 20px;
-    }
+   
 
     .contactos {
         flex-direction: column;
