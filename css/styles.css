@@ -176,7 +176,8 @@ aside {
     font-size: 30px;
     padding-bottom: 20px;
     padding-top: 30px;
-
+}
+.contenedor2 h2{
 	view-timeline-name: --image;
 	view-timeline-axis: block;
 
