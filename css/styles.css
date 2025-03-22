@@ -414,7 +414,7 @@ aside {
 }
 
 @media only screen and (min-width: 1024px)  {
-    header {
+   header {
         background-color: #53dfe9;
         height: 80px;
     }
@@ -610,5 +610,5 @@ aside {
     #arequipa {
         padding-top: 13px;
     }
-}
+
 }
