@@ -254,7 +254,7 @@ aside {
    h2 {
     text-align: center;
     font-family: 'Marck Script', cursive;
-    font-size: 45px;
+    font-size: 65px;
     padding-top: 20px;
     color: #f6f6f6;
 }
@@ -461,9 +461,11 @@ aside {
     }
 
     h2 {
-        text-align: center;
-        font-family: 'Marck Script', cursive;
-        font-size: 130px;
+         text-align: center;
+    font-family: 'Marck Script', cursive;
+    font-size: 120px;
+    padding-top: 20px;
+    color: #f6f6f6;
     }
 
     #p1 {
