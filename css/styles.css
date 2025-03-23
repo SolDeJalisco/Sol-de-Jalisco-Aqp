@@ -210,6 +210,14 @@ aside {
 #arequipa {
     padding-top: 13px;
 }
+
+.contenedor h2,#p2{
+    animation: brillo 2s infinite alternate;
+}
+	@keyframes brillo {
+    0% { text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5); }
+    100% { text-shadow: 0px 0px 20px rgba(255, 255, 255, 1); }
+	}
 }
 
 
@@ -243,11 +251,13 @@ aside {
         height: 35%;
     }
 
-    h2 {
-        text-align: center;
-        font-family: 'Marck Script', cursive;
-        font-size: 130px;
-    }
+   h2 {
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    font-size: 45px;
+    padding-top: 20px;
+    color: #f6f6f6;
+}
 
     #p1 {
         text-align: center;
@@ -410,6 +420,13 @@ aside {
     #arequipa {
         padding-top: 13px;
     }
+	.contenedor h2,#p2{
+    animation: brillo 2s infinite alternate;
+}
+	@keyframes brillo {
+    0% { text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5); }
+    100% { text-shadow: 0px 0px 20px rgba(255, 255, 255, 1); }
+	}
 }
 
 
